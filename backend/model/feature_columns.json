@@ -1,0 +1,17 @@
+[
+  "URLLength",
+  "DomainLength",
+  "IsDomainIP",
+  "URLSimilarityIndex",
+  "CharContinuationRate",
+  "TLDLength",
+  "NoOfSubDomain",
+  "LetterRatioInURL",
+  "NoOfDegitsInURL",
+  "NoOfEqualsInURL",
+  "NoOfQMarkInURL",
+  "NoOfAmpersandInURL",
+  "NoOfOtherSpecialCharsInURL",
+  "IsHTTPS",
+  "HasTitle"
+]

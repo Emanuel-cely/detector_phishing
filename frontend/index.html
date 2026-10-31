@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detector Inteligente de Phishing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Detector de Phishing</h1>
+    <p>Pega una URL sospechosa y analizamos su legitimidad con IA.</p>
+    <form id="form">
+      <input id="url" type="text" placeholder="https://ejemplo.com" required>
+      <button type="submit">Analizar</button>
+    </form>
+    <div id="estado" class="oculto">Analizando…</div>
+    <section id="resultado" class="oculto">
+      <h2 id="veredicto"></h2>
+      <div class="barra"><div id="nivel"></div></div>
+      <p id="riesgoTxt"></p>
+      <h3>Explicación</h3>
+      <p id="explicacion"></p>
+      <details>
+        <summary>Detalle por módulo</summary>
+        <pre id="detalle"></pre>
+      </details>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

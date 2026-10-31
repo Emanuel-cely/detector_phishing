@@ -1,0 +1,9 @@
+body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; display: flex; justify-content: center; padding: 40px; }
+.card { background: #1e293b; padding: 24px; border-radius: 12px; max-width: 640px; width: 100%; }
+input { width: 70%; padding: 10px; border-radius: 8px; border: 1px solid #334155; background: #0f172a; color: #e2e8f0; }
+button { padding: 10px 18px; border: 0; border-radius: 8px; background: #3b82f6; color: white; cursor: pointer; }
+.oculto { display: none; }
+h2.legitima { color: #22c55e; } h2.sospechosa { color: #eab308; } h2.phishing { color: #ef4444; } h2.noEvaluable { color: #94a3b8; }
+.barra { background: #334155; height: 14px; border-radius: 8px; overflow: hidden; margin: 10px 0; }
+#nivel { height: 100%; background: linear-gradient(90deg, #22c55e, #eab308, #ef4444); width: 0; transition: width .5s; }
+pre { white-space: pre-wrap; background: #0f172a; padding: 10px; border-radius: 8px; }
